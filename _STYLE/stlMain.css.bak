@@ -1,0 +1,94 @@
+/*used for success message divs*/
+.successmsg {
+    background: #bce6b3; /* fallback for old browsers */
+    background: linear-gradient(to top , #009835, #bce6b3);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 1024px;
+    height: auto;
+    min-height: 64px;
+    box-shadow: 2px 2px 0px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #A41000;
+}
+/*used for error message divs*/
+.errormsg {
+    background: #D7CB98; /* fallback for old browsers */
+    background: linear-gradient(to top , #D78E00, #D7CB98);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 1024px;
+    height: 64px;
+    box-shadow: 2px 2px 0px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #A41000;
+}
+.titlebar {
+    background: #d2d7d5; /* fallback for old browsers */
+    background: linear-gradient(to top , #d2d7d5, whitesmoke);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 1024px;
+    height: 48px;
+    box-shadow: 2px 2px 1px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-family: monospace;
+    color: dimgrey;
+}
+.body {
+    background: #d2d7d5; /* fallback for old browsers */
+    background: linear-gradient(to top ,  #d2d7d5, whitesmoke);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 1024px;
+    height: 532px;
+    box-shadow: 2px 2px 1px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-family: monospace;
+    color: dimgrey;
+}
+
+.formLogin {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+label {text-align: left;}
+input[type='text'] { font-size: 16px; font-family: monospace; font-weight: bold; color: cadetblue;}
+input[type='password'] { font-size: 16px; font-family: monospace; font-weight: bold; color: cadetblue;}
+
+.icon {  text-align: center;  }
+
+.btext {  font-size: 36px;  }
+.logintext {  font-size: 24px;}
+p {  color: dimgray;  font-weight: bold;  font-size: 16px;  }
+
+a {  color: dimgray;  }
+a:hover {  color: white;  }

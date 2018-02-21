@@ -1,0 +1,107 @@
+/*titlebar div*/
+.titlebar {
+    padding: 4px;
+    background: #d2d7d5; /* fallback for old browsers */
+    /*background: linear-gradient(to top , #d2d7d5, whitesmoke);*/
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 100%;
+    min-width: 800px;
+    height: 48px;
+    box-shadow: 2px 2px 1px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-family: Arial;
+    color: dimgrey;
+}
+
+/*used for success message divs*/
+.successmsg {
+    padding: 4px;
+    background: #bce6b3; /* fallback for old browsers */
+    /*background: linear-gradient(to top , #009835, #bce6b3);*/
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 800px;
+    height: auto;
+    min-height: 64px;
+    box-shadow: 2px 2px 0px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+/*used for error message divs*/
+.errormsg {
+    padding: 4px;
+    background: #eb939a; /* fallback for old browsers */
+    /*background: linear-gradient(to top , #D78E00, #D7CB98);*/
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 800px;
+    height: auto;
+    box-shadow: 2px 2px 0px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #A41000;
+}
+/*body div*/
+.body {
+    border-width:2px;
+    background: #d2d7d5; /* fallback for old browsers */
+    /*background: linear-gradient(to top ,  #d2d7d5, whitesmoke);*/
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 100%;
+    min-width: 640px;
+    height: 640px;
+    box-shadow: 2px 2px 1px gray;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-family: Arial;
+    color: dimgrey;
+}
+
+.icon {
+    text-align: center;
+}
+.btext {
+    font-size: 24px;
+}
+.mtext {
+    font-size: 20px;
+}
+
+p {  color: dimgray;  font-weight: bold;  font-size: 16px;  }
+
+a {  color: dimgray;  }
+a:hover {  color: white;  }
+label {text-align: left;}
+input[type='text'] { font-size: 16px; font-family: Arial; font-weight: normal; color: gray; text-shadow: 1px 1px 1px black;}
+input[type='password'] { font-size: 16px; font-family: Arial; font-weight: normal; color: gray; text-shadow: 1px 1px 1px black;}
+input[type='submit'] { font-size: 16px; font-family: Arial; font-weight: bold; color: gray; text-shadow: 1px 1px 1px black;}
+.icon {  text-align: center;  }
+
+.btext {  font-size: 24px;  }
+.logintext {  font-size: 24px;}
