@@ -1,6 +1,0 @@
-ZYEc58B5FcFYxYsr
-
-SELECT nom, prenom FROM profil WHERE ID=
-	(SELECT PROFIL_ID FROM MEDECIN WHERE ID=
-		(SELECT MEDECIN_ID FROM patient WHERE profil_ID=
-         	(SELECT ID From profil WHERE nom LIKE "%ust%")))
